@@ -17,13 +17,6 @@ menu:
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'highlighter'
-        url: '/code-highlighting-post/'
-      - title: 'intro'
-        url: '/readability-post/'
 
 # Owner/author information
 owner:
@@ -47,6 +40,8 @@ owner:
 social:
   - title: "github"
     url: "https://github.com/paskos"
+  - title: "twitter"
+    url: "https://twitter.com/paskos"
   - title: "linkedin"
     url: "https://ca.linkedin.com/in/pascalgehl"
 # Background image to be tiled on all pages
