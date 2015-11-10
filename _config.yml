@@ -4,7 +4,7 @@ disqus_shortname: beatsandbytes
 reading_time:     true
 words_per_minute: 200
 logo:             images/logo.png
-url:              http://paskos.github.io
+url:              https://paskos.github.io
 safe:             false
 
 menu:
@@ -21,7 +21,7 @@ menu:
 # Owner/author information
 owner:
   name:           Paskos
-  site:           http://paskos.github.io
+  site:           https://paskos.github.io
   avatar:         images/avatar.png
   bio:            "I design, code and learn while listening to beats since the end nineties"
   email:          pascal.gehl@gmail.com
