@@ -10,8 +10,8 @@ safe:             false
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'About'
-    url: '/about'
+  - title: 'About me'
+    url: '/about.html'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
