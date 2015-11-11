@@ -10,19 +10,44 @@ url: https://paskos.github.io
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: ""
+baseurl: ''
 
 # This can be '' to hide the Github nav button
 github: paskos
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
+gaaccount: UA-69962427-1
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: 'beatsandbytes'
 comments: true
+
+# Owner/author information
+owner:
+  name:           Paskos
+  site:           https://paskos.github.io
+  avatar:         images/avatar.png
+  bio:            "I design, code and learn while listening to beats since the end nineties"
+  email:          pascal.gehl@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: paskos
+  facebook:
+  github: paskos
+  stackexchange:
+  linkedin: pascalgehl
+  instagram:
+  flickr:
+  tumblr:
+
+social:
+  - title: "github"
+    url: "https://github.com/paskos"
+  - title: "twitter"
+    url: "https://twitter.com/paskos"
+  - title: "linkedin"
+    url: "https://ca.linkedin.com/in/pascalgehl"
 
 permalink: /:year/:month/:title
 paginate: 5
@@ -31,5 +56,15 @@ highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+timezone:    America/New_York
+future:      true
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
 
 exclude: ['README.md', 'LICENSE']
