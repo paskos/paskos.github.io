@@ -11,7 +11,7 @@ menu:
   - title: 'Home'
     url: '/'
   - title: 'About me'
-    url: '/about.html'
+    url: '/about'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
